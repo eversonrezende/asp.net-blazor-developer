@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Blog.Controllers
+namespace Blog.Controllers;
+
+[ApiController]
+[Route("")]
+public class HomeController : ControllerBase
 {
-    [ApiController]
     [Route("")]
-    public class HomeController : ControllerBase
+    public IActionResult Get()
     {
-        [Route("")]
-        public IActionResult Get()
-        {
-            return Ok();
-        }
+        return Ok();
     }
 }
