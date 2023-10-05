@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj": {}
+    "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "D:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj": {
+    "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "D:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj",
-        "packagesPath": "C:\\Users\\Everson\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\asp.net-blazor-developer\\Blog\\obj\\",
+        "projectPath": "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\Blog.csproj",
+        "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Everson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +44,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
