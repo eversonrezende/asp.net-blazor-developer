@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YRz/KbZl6G+zKVQT0VpqGBlXHrKB6JmTLvxI6jhR+FserWJ8VKRgWZyLLXjww8/JYMzpUDULOPt2RIgI8nnhZg==",
+  "dgSpecHash": "3sr0lX9OTrNxZM6vVzM8D7ATjXWadDAWJRCz3Nbo7eNfoUDR0Fbjvgx4eOpyuJ9C+62sdP/4WdYjBuZsELIlVg==",
   "success": true,
   "projectFilePath": "D:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
@@ -62,7 +62,11 @@
     "C:\\Users\\Everson\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Everson\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Everson\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Everson\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Everson\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Everson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.11\\microsoft.windowsdesktop.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Everson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.11\\microsoft.netcore.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Everson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.11\\microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512",
+    "C:\\Users\\Everson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.11\\microsoft.netcore.app.host.win-x64.7.0.11.nupkg.sha512"
   ],
   "logs": []
 }
