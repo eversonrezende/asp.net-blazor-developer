@@ -10,5 +10,7 @@ namespace Blog.ViewModels
         [Required(ErrorMessage = "O E-mail é obrigatório")]
         [EmailAddress(ErrorMessage = "O E-mail é inválido")]
         public string Email { get; set; }
+
+        public string Password { get; set; } = "";
     }
 }
