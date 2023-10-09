@@ -11,8 +11,8 @@ namespace Blog.Services
             string toEmail,
             string subject,
             string body,
-            string fromName = "Equipe balta.io",
-            string fromEmail = "email@balta.io"
+            string fromName = "Equipe Everson",
+            string fromEmail = "eversonrezende.29@hotmail.com"
         )
         {
             var smtpClient = new SmtpClient(Configuration.Smtp.Host, Configuration.Smtp.Port);
