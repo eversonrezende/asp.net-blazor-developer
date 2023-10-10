@@ -145,6 +145,7 @@ D:\dev\asp.net-blazor-developer\Blog\obj\Debug\net7.0\Blog.genruntimeconfig.cach
 D:\dev\asp.net-blazor-developer\Blog\obj\Debug\net7.0\ref\Blog.dll
 C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\appsettings.Development.json
 C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\appsettings.json
+C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\Blog.staticwebassets.runtime.json
 C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\Blog.exe
 C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\Blog.deps.json
 C:\dev\asp.net-blazor-developer\Blog\bin\Debug\net7.0\Blog.runtimeconfig.json
