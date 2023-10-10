@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fLvPEvvxOjbLFv6YSgopxGCvnIRUnLe0EtaJHJ8zH2FNAuX9BYo5FtfGPv3OF2hIis90/lSkakNlf2MiL4cPHA==",
+  "dgSpecHash": "V35gN4aHm0Ui8E9V3TVjH1uFJzM/7l7plr5ZMwvvAtT5lk7gY0Ufpxb0KF/OrAG0qPhkqPUx+jN6dPvjAxH7vQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\ASP.NET e Blazor Developer\\Blog\\Blog.csproj",
+  "projectFilePath": "C:\\dev\\asp.net-blazor-developer\\Blog\\Blog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erezende\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\erezende\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
