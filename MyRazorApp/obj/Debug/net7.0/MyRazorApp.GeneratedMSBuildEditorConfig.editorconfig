@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyRazorApp
 build_property.RootNamespace = MyRazorApp
-build_property.ProjectDir = C:\dev\Balta\MyRazorApp\
+build_property.ProjectDir = C:\dev\asp.net-blazor-developer\MyRazorApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\dev\Balta\MyRazorApp
+build_property.MSBuildProjectDirectory = C:\dev\asp.net-blazor-developer\MyRazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/dev/Balta/MyRazorApp/Pages/About.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/MyRazorApp/Pages/Index.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/MyRazorApp/Pages/Login.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/MyRazorApp/Pages/Shared/NavMenuPartial.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Shared/NavMenuPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE5hdk1lbnVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/MyRazorApp/Pages/Shared/_Layout.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/MyRazorApp/Pages/_ViewImports.cshtml]
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

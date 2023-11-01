@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XHR1hq4ork+jqlXjV5zyyBKa0tBxj0QBSn/ymDSdNQMwpGuYpgldznZuviajQQgdHmWOuyw+/DrpR1LCLOIAhg==",
+  "dgSpecHash": "KyrZFz6LWRJsAOeebzFsfbT+CUdlTR5lhwpfQOkil0L506KNAaT+SWG/d5mrifBaRDi0veo6X0Ptd9zuTr5OGw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj",
+  "projectFilePath": "C:\\dev\\asp.net-blazor-developer\\MyRazorApp\\MyRazorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

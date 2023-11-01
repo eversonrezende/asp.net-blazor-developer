@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj",
+      "projectUniqueName": "C:\\dev\\asp.net-blazor-developer\\MyRazorApp\\MyRazorApp.csproj",
       "projectName": "MyRazorApp",
-      "projectPath": "C:\\dev\\Balta\\MyRazorApp\\MyRazorApp.csproj",
+      "projectPath": "C:\\dev\\asp.net-blazor-developer\\MyRazorApp\\MyRazorApp.csproj",
       "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\Balta\\MyRazorApp\\obj\\",
+      "outputPath": "C:\\dev\\asp.net-blazor-developer\\MyRazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
