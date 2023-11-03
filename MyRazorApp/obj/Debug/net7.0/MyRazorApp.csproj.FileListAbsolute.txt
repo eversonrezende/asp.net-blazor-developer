@@ -48,7 +48,9 @@ C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\staticwebassets\msbu
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\staticwebassets.pack.json
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\staticwebassets.build.json
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\staticwebassets.development.json
+C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\scopedcss\Pages\About.cshtml.rz.scp.css
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\scopedcss\bundle\MyRazorApp.styles.css
+C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\scopedcss\projectbundle\MyRazorApp.bundle.scp.css
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\MyRazorApp.dll
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\refint\MyRazorApp.dll
 C:\dev\asp.net-blazor-developer\MyRazorApp\obj\Debug\net7.0\MyRazorApp.pdb

@@ -1,7 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>My Razor App</title>
+    <title>@ViewData["Title"] - My Razor App</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyRazorApp.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -10,5 +12,10 @@
     <main>
         @RenderBody()
     </main>
+<footer>
+    2023 - Powered by Balta.io
+</footer>
+
+@RenderSection("scripts", required: false)
 </body>
 </html>

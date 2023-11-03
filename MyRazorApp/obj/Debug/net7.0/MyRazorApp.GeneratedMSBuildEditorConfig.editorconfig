@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\dev\asp.net-blazor-developer\MyRazorApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/Index.cshtml]
@@ -39,3 +39,11 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/asp.net-blazor-developer/MyRazorApp/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kh2dxft04v
