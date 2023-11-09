@@ -5,8 +5,8 @@ Aqui estão registrados os aprendizados dos cursos realizados na plataforma [Bal
 Os cursos são:
 > Status: Finalizado
 - Fundamentos do ASP.NET 6
-> Status: Em Andamento
 - Uma visão geral sobre o ASP.NET Razor Pages
-> Status: Não iniciado
+> Status: Em Andamento
 - Fundamentos do Blazor Server
+> Status: Não iniciado
 - Fundamentos do Blazor Web Assembly
