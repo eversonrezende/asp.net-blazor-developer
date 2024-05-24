@@ -30,16 +30,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHMucmF6b3I=
+[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Shared/HeadlessLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRsZXNzTGF5b3V0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Shared/ProductListComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RMaXN0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/dev/Balta/asp.net-blazor-developer/BlazingShop/_Imports.razor]
