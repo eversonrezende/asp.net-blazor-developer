@@ -1,12 +1,88 @@
 ﻿@page "/products/create"
 
+@inject AppDbContext _context
+
 <h1>New Item</h1>
 
-<EditForm Model="_model">
+<!--
+    EditForm é o componente padrão de formulário do Blazor.
+    Model é o objeto que será manipulado pelo formulário.
+    OnValidSubmit é o evento que será chamado quando o formulário for submetido com sucesso.
+-->
+<EditForm Model="_model" OnValidSubmit="@HandleSubmitAsync">
+
+    <!--
+        DataAnnotationsValidator é o componente que faz a validação dos dados do formulário 
+            baseado nas DataAnnotations.
+        ValidationSummary é o componente que exibe as mensagens de erro de validação.
+    -->
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <!--
+        InputText é o componente padrão de input do Blazor.
+        bind-value é a diretiva que faz o binding do valor do input com a propriedade do objeto.
+    -->
+    <div class="mb-3">
+        <label for="Title" class="form-label">Title</label>
+        <InputText class="form-control"
+                   type="text"
+                   id="Title"
+                   @bind-Value="_model.Title" />
+    </div>
+
+    <!--
+        InputNumber é o componente padrão de input do Blazor para números.
+        bind-value é a diretiva que faz o binding do valor do input com a propriedade do objeto.
+    -->
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <InputNumber class="form-control"
+                     type="number"
+                     id="Price"
+                     @bind-Value="_model.Price" />
+    </div>
+
+    <!--
+        InputSelect é o componente padrão de select do Blazor.
+        bind-value é a diretiva que faz o binding do valor do select com a propriedade do objeto.
+        option é o componente que representa uma opção do select.
+    -->
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label">Category</label>
+        <InputSelect class="form-control"
+                     id="CategoryId"
+                     @bind-Value="_model.CategoryId">
+            @foreach (var category in _categories)
+            {
+                <option value="@category.Id">
+                    @category.Title
+                </option>
+            }
+        </InputSelect>
+    </div>
+
+    <button class="btn btn-success" type="submit">
+        Save
+    </button>
 
 </EditForm>
 
 @code
 {
     Product _model = new();
+    List<Category> _categories = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _categories = await _context
+            .Categories
+            .AsNoTracking()
+            .ToListAsync();
+    }
+
+    async Task HandleSubmitAsync()
+    {
+
+    }
 }
