@@ -6,7 +6,6 @@ Os cursos são:
 > Status: Finalizado
 - Fundamentos do ASP.NET 6
 - Uma visão geral sobre o ASP.NET Razor Pages
-> Status: Em Andamento
 - Fundamentos do Blazor Server
-> Status: Não iniciado
+> Status: Em Andamento
 - Fundamentos do Blazor Web Assembly
