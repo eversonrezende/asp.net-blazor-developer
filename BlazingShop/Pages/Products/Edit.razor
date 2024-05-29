@@ -1,9 +1,9 @@
-﻿@page "/products/create"
+﻿@page "/products/edit/{id:int}"
 
 @inject AppDbContext _context
 @inject NavigationManager _navigationManager
 
-<h1>New Item</h1>
+<h1>@_model?.Title</h1>
 
 <!--
     EditForm é o componente padrão de formulário do Blazor.
@@ -78,7 +78,10 @@
 
 @code
 {
-    Product _model = new();
+    [Parameter]
+    public int Id { get; set; }
+
+    Product? _model = new();
     List<Category> _categories = new();
     string? _errorMessage = null;
 
@@ -87,21 +90,35 @@
         _categories = await _context
             .Categories
             .AsNoTracking()
+            .OrderBy(x => x.Title)
             .ToListAsync();
-        _model.CategoryId = _categories[0].Id;
+
+        _model = await _context
+            .Products
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == Id);
     }
 
     async Task HandleSubmitAsync()
     {
         try
         {
-            await _context.Products.AddAsync(_model);
+            var prod = await _context.Products.FindAsync(Id);
+            if(prod is null)
+                throw new Exception("Produto não encontrado.");
+
+            prod.Title = _model.Title;
+            prod.Price = _model.Price;
+            prod.CategoryId = _model.CategoryId;
+
+            _context.Products.Update(prod);
             await _context.SaveChangesAsync();
+
             _navigationManager.NavigateTo("/products");
         }
-        catch
+        catch (Exception ex)
         {
-            _errorMessage = "Falha ao persistir o item.";
+            _errorMessage = ex.Message;
         }
     }
 }

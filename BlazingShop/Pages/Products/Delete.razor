@@ -1,0 +1,71 @@
+﻿@page "/products/delete/{id:int}"
+
+@inject AppDbContext _context
+@inject NavigationManager _navigationManager
+
+<h1>Delete @_model?.Title</h1>
+
+@if (!string.IsNullOrEmpty(_errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @_errorMessage
+    </div>
+}
+
+<!--
+    EditForm é o componente padrão de formulário do Blazor.
+    Model é o objeto que será manipulado pelo formulário.
+    OnValidSubmit é o evento que será chamado quando o formulário for submetido com sucesso.
+-->
+<EditForm Model="@_model" OnValidSubmit="@HandleSubmit">
+    <div class="mb-3">
+        <label for="Title" class="form-label">Title</label>
+        <InputText readonly class="form-control" type="text" id="Title" @bind-Value="_model.Title" ></InputText>
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <InputNumber readonly class="form-control" type="number" id="Price" @bind-Value="_model.Price"></InputNumber>
+    </div>
+
+    <button class="btn btn-danger" type="submit">
+        Save
+    </button>
+
+</EditForm>
+
+@code
+{
+    [Parameter]
+    public int Id { get; set; }
+
+    Product? _model = new();
+    string? _errorMessage = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _model = await _context
+            .Products
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == Id);
+    }
+
+    async Task HandleSubmit()
+    {
+        try
+        {
+            var prod = await _context.Products.FirstOrDefaultAsync(x => x.Id == Id);
+            if (prod is null)
+                throw new Exception("Produto não encontrado.");
+
+            _context.Products.Remove(prod);
+            await _context.SaveChangesAsync();
+
+            _navigationManager.NavigateTo("/products");
+        }
+        catch (Exception ex)
+        {
+            _errorMessage = ex.Message;
+        }
+    }
+}
