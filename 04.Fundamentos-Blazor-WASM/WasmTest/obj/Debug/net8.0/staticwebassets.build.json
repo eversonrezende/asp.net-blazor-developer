@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+oWCq4hJSO5Caua9oFtHcaZWFmGIJjUAvkqmBEX5UwA=",
+  "Hash": "4ANsFcvuBOMfspjyK34uCILsn2G0ouS1Arg2TIwvPMo=",
   "Source": "WasmTest",
   "BasePath": "/",
   "Mode": "Root",
@@ -52,7 +52,7 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\erezende\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.5\\build\\net8.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\erezende\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\build\\net8.0\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
@@ -775,6 +775,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\webcil\\netstandard.wasm"
+    },
+    {
+      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RestSharp.wasm",
+      "SourceId": "WasmTest",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RestSharp.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\webcil\\RestSharp.wasm"
     },
     {
       "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm",
@@ -4938,25 +4957,6 @@
       "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Json.wasm"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\a3h1a0ur7w.gz",
-      "SourceId": "WasmTest",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js"
-    },
-    {
       "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\a4bdgexvj7.gz",
       "SourceId": "WasmTest",
       "SourceType": "Computed",
@@ -7389,6 +7389,25 @@
       "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.wasm"
     },
     {
+      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\x5pja48r92.gz",
+      "SourceId": "WasmTest",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/RestSharp.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RestSharp.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\RestSharp.wasm"
+    },
+    {
       "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\xhc5g9huep.gz",
       "SourceId": "WasmTest",
       "SourceType": "Computed",
@@ -7653,6 +7672,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.ResourceManager.wasm"
+    },
+    {
+      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\zfijt6ymvv.gz",
+      "SourceId": "WasmTest",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\04.Fundamentos-Blazor-WASM\\WasmTest\\obj\\Debug\\net8.0\\compressed\\zhaberz4p8.gz",

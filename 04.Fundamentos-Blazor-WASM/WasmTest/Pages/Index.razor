@@ -1,15 +1,148 @@
 ﻿@page "/"
+@using WasmTest.Models
+@using RestSharp
 
-<PageTitle>Título da Página</PageTitle>
+<PageTitle>Categorias</PageTitle>
 
-<h3>Index</h3>
+<h1>Index</h1>
+
+@if (_categories is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in _categories)
+            {
+                <tr>
+                    <td>@category.Id</td>
+                    <td>@category.Title</td>
+                    <td>@category.Description</td>
+                    <td>
+                        <button class="btn btn-info" @onclick="() => GetAsync(category.Id)">
+                            EDIT
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr />
+
+<input type="hidden" class="form-control" @bind="_category.Id" />
+<div class="mb-3">
+    <label class="form-label">Title</label>
+    <input type="text" class="form-control" @bind="_category.Title" />
+</div>
+<div class="mb-3">
+    <label class="form-label">Description</label>
+    <input type="text" class="form-control" @bind="_category.Description" />
+</div>
+
+@if (_deleted)
+{
+    <div class="alert alert-danger" role="alert">
+        Categoria excluída com sucesso!
+    </div>
+}
+
+<button class="btn btn-primary" @onclick="UpsertAsyc">
+    @if (_category.Id is not 0)
+    {
+        <span>SAVE</span>
+    }
+    else
+    {
+        <span>CREATE</span>
+    }
+
+</button>
+
+@if (_category.Id is not 0)
+{
+    <button class="btn btn-info" @onclick="New">NEW</button>
+    <button class="btn btn-danger" @onclick="DeleteAsync">DELETE</button>
+}
+
 
 @code {
 
-    protected override void OnInitialized()
+    private List<Category>? _categories = new();
+    private Category? _category = new();
+    private bool _deleted = false;
+
+    protected override async Task OnInitializedAsync()
     {
-        Console.Write("Passei aqui");
-        base.OnInitialized();
+        var client = new RestClient();
+        var request = new RestRequest($"{Configuration.ApiUrl}/v1/categories");
+        _categories = await client.GetAsync<List<Category>?>(request);
     }
 
+    private async Task UpsertAsyc()
+    {
+        var client = new RestClient();
+
+        if (_category?.Id == 0)
+        {
+            var request = new RestRequest($"{Configuration.ApiUrl}/v1/categories")
+                .AddJsonBody(_category);
+            var category = await client.PostAsync<Category?>(request);
+
+            if (category is not null)
+            {
+                _categories?.Add(category);
+                New();
+            }
+        }
+        else
+        {
+            var request = new RestRequest($"{Configuration.ApiUrl}/v1/categories/{_category?.Id}")
+                .AddJsonBody(_category);
+
+            await client.PutAsync<Category?>(request);
+
+            var category = _categories?
+                .FirstOrDefault(x => x.Id == _category?.Id);
+
+            if (category is not null)
+            {
+                category.Title = _category.Title;
+                category.Description = _category.Description;
+            }
+        }
+
+
+    }
+
+    public async Task GetAsync(int id)
+    {
+        var client = new RestClient();
+        var request = new RestRequest($"{Configuration.ApiUrl}/v1/categories/{id}");
+        _category = await client.GetAsync<Category?>(request);
+    }
+
+    public async Task DeleteAsync()
+    {
+        var client = new RestClient();
+        var request = new RestRequest($"{Configuration.ApiUrl}/v1/categories/{_category?.Id}");
+        _category = await client.DeleteAsync<Category?>(request);
+        _deleted = true;
+    }
+
+    public void New()
+    {
+        _category = new Category();
+    }
 }

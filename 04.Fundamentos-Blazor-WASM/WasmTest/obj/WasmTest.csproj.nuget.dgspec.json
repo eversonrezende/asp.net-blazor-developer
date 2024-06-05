@@ -48,12 +48,12 @@
           "dependencies": {
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[8.0.5, )",
               "autoReferenced": true
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[111.2.0, )"
             }
           },
           "imports": [

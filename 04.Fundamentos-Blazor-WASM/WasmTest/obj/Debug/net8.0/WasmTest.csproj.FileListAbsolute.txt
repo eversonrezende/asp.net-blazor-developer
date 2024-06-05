@@ -38,6 +38,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Registry.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\mscorlib.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\netstandard.wasm
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\RestSharp.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Buffers.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Concurrent.wasm
@@ -257,7 +258,6 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Data.Common.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Text.Json.wasm.gz
-C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Net.Ping.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.wasm.gz
@@ -386,6 +386,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Private.DataContractSerialization.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Transactions.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.wasm.gz
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\RestSharp.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Xml.ReaderWriter.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.IO.FileSystem.Watcher.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Security.wasm.gz
@@ -400,6 +401,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Loader.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.5.z7sygmv7be.js.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Resources.ResourceManager.wasm.gz
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.XDocument.wasm.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Encoding.wasm.gz
@@ -431,6 +433,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\RestSharp.dll
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\Microsoft.CSharp.dll
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\bin\Debug\net8.0\Microsoft.VisualBasic.Core.dll
@@ -638,6 +641,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\Microsoft.Extensions.Primitives.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\Microsoft.JSInterop.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\Microsoft.JSInterop.WebAssembly.wasm
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\RestSharp.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\System.IO.Pipelines.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\Microsoft.CSharp.wasm
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\webcil\Microsoft.VisualBasic.Core.wasm
@@ -821,7 +825,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\scopedcss\bundle\WasmTest.styles.css
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\scopedcss\projectbundle\WasmTest.bundle.scp.css
-C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\a3h1a0ur7w.gz
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\zfijt6ymvv.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\q3nh8xi9h8.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\gl5p2ke7gt.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\uhx8tbgnfl.gz
@@ -844,6 +848,7 @@ C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\De
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\r6y8a1tyti.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\58i7ps0ptr.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\a95oknmxxs.gz
+C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\x5pja48r92.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\ewv6lmw9jt.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\hecwi4ss9q.gz
 C:\dev\Balta\asp.net-blazor-developer\04.Fundamentos-Blazor-WASM\WasmTest\obj\Debug\net8.0\compressed\3zqs8s7lk0.gz
