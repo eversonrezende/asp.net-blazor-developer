@@ -7,8 +7,8 @@ Os cursos são:
 - Fundamentos do ASP.NET 6
 - Uma visão geral sobre o ASP.NET Razor Pages
 - Fundamentos do Blazor Server
-> Status: Em Andamento
 - Fundamentos do Blazor Web Assembly
-> Status: Não Iniciado
+> Status: Em Andamento
 - Fundamentos do Blazor com .NET 8
+> Status: Não Iniciado
 - Progressive Web Apps com Blazor Web Assembly
