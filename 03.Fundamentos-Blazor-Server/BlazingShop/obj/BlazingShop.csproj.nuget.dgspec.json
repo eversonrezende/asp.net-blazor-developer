@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\BlazingShop.csproj": {}
+    "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\BlazingShop.csproj": {}
   },
   "projects": {
-    "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\BlazingShop.csproj": {
+    "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\BlazingShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\BlazingShop.csproj",
+        "projectUniqueName": "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\BlazingShop.csproj",
         "projectName": "BlazingShop",
-        "projectPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\BlazingShop.csproj",
+        "projectPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\BlazingShop.csproj",
         "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\obj\\",
+        "outputPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

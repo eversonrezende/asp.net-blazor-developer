@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8N6fcrnJwR6qf1myLqNg9n5B6aaqS+lVCdOORdLdjgonQ6zkMYVJRqRLM+0gIJ4PugJP5cqu9xzMKmvk12mj1Q==",
+  "dgSpecHash": "8l1wlcFV8nM=",
   "success": true,
-  "projectFilePath": "C:\\dev\\Balta\\asp.net-blazor-developer\\BlazingShop\\BlazingShop.csproj",
+  "projectFilePath": "C:\\dev\\Balta\\asp.net-blazor-developer\\03.Fundamentos-Blazor-Server\\BlazingShop\\BlazingShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erezende\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\erezende\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

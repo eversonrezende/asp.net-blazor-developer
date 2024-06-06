@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WasmTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80891fee90bc5590390e49cf207d2a8d3b68af9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ce5acabb2215354ae53fdea66b4e8db3ef36605")]
 [assembly: System.Reflection.AssemblyProductAttribute("WasmTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WasmTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

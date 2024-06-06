@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazingShop
 build_property.RootNamespace = BlazingShop
-build_property.ProjectDir = C:\dev\Balta\asp.net-blazor-developer\BlazingShop\
+build_property.ProjectDir = C:\dev\Balta\asp.net-blazor-developer\03.Fundamentos-Blazor-Server\BlazingShop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\dev\Balta\asp.net-blazor-developer\BlazingShop
+build_property.MSBuildProjectDirectory = C:\dev\Balta\asp.net-blazor-developer\03.Fundamentos-Blazor-Server\BlazingShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/App.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Index.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Login.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products/Create.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Products/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products/Delete.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Products/Delete.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGVsZXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products/Edit.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Products/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Products/Index.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Products/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Shared/HeadlessLayout.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Shared/HeadlessLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRsZXNzTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/_Imports.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Shared/MainLayout.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-qb8r1fj9y6
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Shared/NavMenu.razor]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y1olo2g61n
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/Error.cshtml]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/Balta/asp.net-blazor-developer/BlazingShop/Pages/_Host.cshtml]
+[C:/dev/Balta/asp.net-blazor-developer/03.Fundamentos-Blazor-Server/BlazingShop/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
