@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jaZliYVaSuLNjT0hNH314wxrpZYsewLU0mg1bsQQEd4=",
+  "Hash": "FDwNY//Sybfq+caxAYr6MBweBeHIyqRG+qdAWILkgs4=",
   "Source": "BlazorShop",
   "BasePath": "_content/BlazorShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorShop\\wwwroot",
       "Source": "BlazorShop",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
       "BasePath": "_content/BlazorShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorShop.styles.css",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorShop.styles.css",
       "SourceId": "BlazorShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "BlazorShop.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorShop.styles.css"
+      "OriginalItemSpec": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorShop.styles.css"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css",
       "SourceId": "BlazorShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "BlazorShop.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css"
+      "OriginalItemSpec": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\app.css",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\app.css",
       "SourceId": "BlazorShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\favicon.png",
+      "Identity": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\favicon.png",
       "SourceId": "BlazorShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
+      "ContentRoot": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\",
       "BasePath": "_content/BlazorShop",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

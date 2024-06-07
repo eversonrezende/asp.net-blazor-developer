@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css",
+      "Id": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorShop.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorShop.bundle.scp.css"
     },
     {
-      "Id": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\app.css",
+      "Id": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\favicon.png",
+      "Id": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

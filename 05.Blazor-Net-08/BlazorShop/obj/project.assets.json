@@ -2781,27 +2781,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erezende\\.nuget\\packages\\": {}
+    "C:\\Users\\Everson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\BlazorShop.csproj",
+      "projectUniqueName": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\BlazorShop.csproj",
       "projectName": "BlazorShop",
-      "projectPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\BlazorShop.csproj",
-      "packagesPath": "C:\\Users\\erezende\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\Balta\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\",
+      "projectPath": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\BlazorShop.csproj",
+      "packagesPath": "C:\\Users\\Everson\\.nuget\\packages\\",
+      "outputPath": "D:\\dev\\asp.net-blazor-developer\\05.Blazor-Net-08\\BlazorShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erezende\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Everson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2861,7 +2858,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
