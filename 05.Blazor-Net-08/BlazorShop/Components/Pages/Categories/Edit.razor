@@ -2,6 +2,7 @@
 @inject ApplicationDbContext Context
 @inject NavigationManager Navigation
 @rendermode InteractiveServer
+@attribute [Authorize]
 
 @if (Model is null)
 {
@@ -40,9 +41,9 @@ else
     protected override async Task OnInitializedAsync()
     {
         Model = await Context
-                .Categories
-                .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.ID == Id);
+        .Categories
+        .AsNoTracking()
+        .FirstOrDefaultAsync(x => x.ID == Id);
     }
 
     public async Task OnValidSubmit()
