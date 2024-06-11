@@ -9,5 +9,4 @@ Os cursos são:
 - Fundamentos do Blazor Server
 - Fundamentos do Blazor Web Assembly
 - Fundamentos do Blazor com .NET 8
-> Status: Em Andamento
 - Progressive Web Apps com Blazor Web Assembly
